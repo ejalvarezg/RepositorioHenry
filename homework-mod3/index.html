@@ -3,21 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./reset.css">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
     <title>Mi portafolio</title>
 </head>
 <body>
 
     <header>
 
-        <h1>Erik Alvarez</h1>
-        <h2>Portfolio 2024</h2>
+        <div id="titulos">
+            <h1>Erik Alvarez</h1>
+            <h2>Portfolio 2024</h2>
+        </div>
 
         <nav>
             <ul>
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Experiencia</a></li>
-              <li><a href="#">Trabajos hechos</a></li>
-              <li><a href="#">Contacto</a></li>
+                <div id="menu-principal">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Experiencia</a></li>
+                    <li><a href="#">Trabajos hechos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </div>
             </ul>
         </nav>
           
@@ -28,30 +34,40 @@
         <section>
             <h2>Experiencia</h2>
 
-            <div>
-                <h3>Desarrollador WordPress</h3>
-                <h4>LYC COMEX SRL - <span>dic. 2021 - actualidad</span></h4>
+            <div class="experiencia">
 
-                <p>Rediseño y mantenimiento del ecommerce, logrando un sitio navegable y funcional</p>
-            </div>
+                <div>
+                    <div class="titulo-experiencia">
+                        <h3>Desarrollador WordPress /</h3>
+                        <h4>LYC COMEX SRL /<span> dic. 2021 - actualidad</span></h4>
+                    </div>
 
-            <div>
-                <h3>Analista de marketing</h3>
-                <h4>Autónonmo - <span>mar. 2022 - actualidad</span></h4>
+                    <p>Rediseño y mantenimiento del ecommerce, logrando un sitio navegable y funcional</p>
+                </div>
 
-                <p>Planificación y ejecución de campañas publicitarias en Meta y Google Ads. Mejoramiento de publicaciones, reclamos,
+                <div>
+                    <div class="titulo-experiencia">
+                        <h3>Analista de marketing /</h3>
+                        <h4>Autónonmo /<span> mar. 2022 - actualidad</span></h4>
+                    </div>
+
+                   <p>Planificación y ejecución de campañas publicitarias en Meta y Google Ads. Mejoramiento de publicaciones, reclamos,
                     respuestas y atención al cliente en los canales de mercado libre de varias cuentas.
-                </p>
-            </div>
+                    </p>
+                </div>
 
-            <div>
-                <h3>Capacitador</h3>
-                <h4>Autónonmo - <span>feb. 2011 - nov. 2021</span></h4>
+                <div>
+                    <div class="titulo-experiencia">
+                        <h3>Capacitador /</h3>
+                        <h4>Autónonmo / <span> feb. 2011 - nov. 2021</span></h4>
+                    </div>
 
-                <p> Gestión de talleres de lectura en ciencias. Selección de material, preparación de temas para la comprensión de textos,
+                    <p> Gestión de talleres de lectura en ciencias. Selección de material, preparación de temas para la comprensión de textos,
                     charlas y capacitación al público.
-                </p>
-                <p>Clases particulares de matemáticas, estadística, física y español para extranjeros.</p>
+                    </p>
+                    <p>Clases particulares de matemáticas, estadística, física y español para extranjeros.</p>
+                </div>
+
             </div>
 
         </section>

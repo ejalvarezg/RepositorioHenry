@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 1.5em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3, h4, h5, h6 {
+    font-size: 1.1em;
+}
+
+#titulos, .experiencia {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    gap: 1em;
+}
+
+#titulos {
+    align-items: center;
+}
+
+#menu-principal, footer{
+    width: 70vw;
+    margin: 1.5em auto;
+    /* border: 2px solid black; */
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experiencia {
+    margin: 1em auto;
+    padding: 1em 0;
+}
+
+.titulo-experiencia {
+    margin: 0.4em 0;
+    /* border: 1px solid gray; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.titulo-experiencia h4 {
+    margin-left: 0.2em;
+}
